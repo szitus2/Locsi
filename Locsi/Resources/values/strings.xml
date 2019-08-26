@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Locsi</string>
+    <string name="timers_activity_label">Locsi - Időzítők</string>
+    <string name="settings_activity_label">Locsi - Beállítás</string>
+    <string name="programs_activity_label">Locsi - Programok</string>
+    <string name="programs_manual_label">Locsi - Kézi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_timers">Időzítők</string>
+    <string name="title_settings">Beállítások</string>
+    <string name="title_manual">Kézi</string>
+    <string name="title_programs">Programok</string>
+</resources>
