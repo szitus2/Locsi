@@ -56,6 +56,7 @@ resources;obj\Release\90\res\values\strings.xml
 resources;obj\Release\90\res\values\styles.xml
 Spinner;obj\Release\90\res\layout\manuallayout.xml
 Spinner;obj\Release\90\res\layout\programslayout.xml
+Spinner;obj\Release\90\res\layout\settingact.xml
 Spinner;obj\Release\90\res\layout\timers.xml
 string;obj\Release\90\res\values\strings.xml
 style;obj\Release\90\res\values\styles.xml

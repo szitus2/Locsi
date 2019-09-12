@@ -28,6 +28,12 @@ namespace Locsi
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.SettingsBNV);
             navigation.SetOnNavigationItemSelectedListener(this);
             navigation.SelectedItemId = Resource.Id.navigation_settings;
+
+            Spinner sp = FindViewById<Spinner>(Resource.Id.spinnerSensor1);
+            ArrayAdapter<string> dataAdapter = new ArrayAdapter<string>(this, Resource.Layout.support_simple_spinner_dropdown_item, new List<string>() { "Kikapcsolva", "Nyitó érintkező", "Záró érintkező" });
+            sp.Adapter = dataAdapter;
+            sp.SetSelection(0);
+            sp.ItemSelected += Sp1_ItemSelected;
         }
 
         protected override void OnResume()
@@ -43,6 +49,14 @@ namespace Locsi
             EditText etip = FindViewById<EditText>(Resource.Id.IPAddrEditText);
             Common.Instance.LocsiHostname = etip.Text;
             Common.SaveData();
+        }
+
+        private void Sp1_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            Spinner sp = sender as Spinner;
+            if (sp == null) { return; }
+
+            
         }
 
         public bool OnNavigationItemSelected(IMenuItem item)

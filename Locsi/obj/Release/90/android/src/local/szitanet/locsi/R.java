@@ -4587,7 +4587,7 @@ containing a value of this type.
         public static final int META=0x7f09003c;
         public static final int SHIFT=0x7f09003d;
         public static final int SYM=0x7f09003e;
-        public static final int SettingsBNV=0x7f0900df;
+        public static final int SettingsBNV=0x7f0900e0;
         public static final int action_bar=0x7f09008d;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09008c;
@@ -4621,7 +4621,7 @@ containing a value of this type.
         public static final int browser_actions_menu_item_text=0x7f0900af;
         public static final int browser_actions_menu_items=0x7f0900ad;
         public static final int browser_actions_menu_view=0x7f0900ab;
-        public static final int bugyi=0x7f0900e8;
+        public static final int bugyi=0x7f0900e9;
         public static final int buttonPanel=0x7f090072;
         public static final int center=0x7f09004c;
         public static final int center_horizontal=0x7f090051;
@@ -4645,8 +4645,8 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0900b7;
         public static final int design_navigation_view=0x7f0900b6;
         public static final int disableHome=0x7f090027;
-        public static final int editText1=0x7f0900e3;
-        public static final int editText2=0x7f0900e5;
+        public static final int editText1=0x7f0900e4;
+        public static final int editText2=0x7f0900e6;
         public static final int edit_query=0x7f09008f;
         public static final int end=0x7f090037;
         public static final int enterAlways=0x7f090046;
@@ -4682,7 +4682,7 @@ containing a value of this type.
         public static final int listMode=0x7f090024;
         public static final int listText1=0x7f0900d2;
         public static final int list_item=0x7f090070;
-        public static final int masked=0x7f0900ea;
+        public static final int masked=0x7f0900eb;
         public static final int message=0x7f09009c;
         public static final int message1=0x7f09009f;
         public static final int message100=0x7f0900a8;
@@ -4703,11 +4703,11 @@ containing a value of this type.
         public static final int multiply=0x7f09002f;
         public static final int navigation=0x7f0900aa;
         public static final int navigation_header_container=0x7f0900b5;
-        public static final int navigation_home=0x7f0900eb;
-        public static final int navigation_manual=0x7f0900ed;
-        public static final int navigation_programs=0x7f0900ec;
-        public static final int navigation_settings=0x7f0900ef;
-        public static final int navigation_timers=0x7f0900ee;
+        public static final int navigation_home=0x7f0900ec;
+        public static final int navigation_manual=0x7f0900ee;
+        public static final int navigation_programs=0x7f0900ed;
+        public static final int navigation_settings=0x7f0900f0;
+        public static final int navigation_timers=0x7f0900ef;
         public static final int never=0x7f090042;
         public static final int none=0x7f090029;
         public static final int normal=0x7f090025;
@@ -4764,10 +4764,11 @@ containing a value of this type.
         public static final int snap=0x7f09004a;
         public static final int snapMargins=0x7f09004b;
         public static final int spacer=0x7f090073;
-        public static final int spinner1=0x7f0900e0;
-        public static final int spinner2=0x7f0900e7;
+        public static final int spinner1=0x7f0900e1;
+        public static final int spinner2=0x7f0900e8;
         public static final int spinnerMan=0x7f0900bc;
         public static final int spinnerPgm1=0x7f0900d3;
+        public static final int spinnerSensor1=0x7f0900df;
         public static final int split_action_bar=0x7f090008;
         public static final int src_atop=0x7f090031;
         public static final int src_in=0x7f090032;
@@ -4779,7 +4780,7 @@ containing a value of this type.
         public static final int stretch=0x7f09005b;
         public static final int submenuarrow=0x7f090084;
         public static final int submit_area=0x7f090098;
-        public static final int switch1=0x7f0900e1;
+        public static final int switch1=0x7f0900e2;
         public static final int tabMode=0x7f090026;
         public static final int tag_transition_group=0x7f09001e;
         public static final int tag_unhandled_key_event_manager=0x7f09001f;
@@ -4790,9 +4791,9 @@ containing a value of this type.
         public static final int textSpacerNoTitle=0x7f090078;
         public static final int textStart=0x7f09005a;
         public static final int textView1=0x7f0900dd;
-        public static final int textView2=0x7f0900e2;
-        public static final int textView3=0x7f0900e4;
-        public static final int textView4=0x7f0900e6;
+        public static final int textView2=0x7f0900e3;
+        public static final int textView3=0x7f0900e5;
+        public static final int textView4=0x7f0900e7;
         public static final int textViewPgm1=0x7f0900d4;
         public static final int text_input_password_toggle=0x7f0900ba;
         public static final int textinput_counter=0x7f090018;
@@ -4815,7 +4816,7 @@ containing a value of this type.
         public static final int up=0x7f090009;
         public static final int useLogo=0x7f09002d;
         public static final int view_offset_helper=0x7f09001b;
-        public static final int visible=0x7f0900e9;
+        public static final int visible=0x7f0900ea;
         public static final int withText=0x7f090043;
         public static final int wrap_content=0x7f090035;
     }

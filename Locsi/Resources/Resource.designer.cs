@@ -3107,8 +3107,8 @@ namespace Locsi
 			// aapt resource value: 0x7f09003e
 			public const int SYM = 2131296318;
 			
-			// aapt resource value: 0x7f0900df
-			public const int SettingsBNV = 2131296479;
+			// aapt resource value: 0x7f0900e0
+			public const int SettingsBNV = 2131296480;
 			
 			// aapt resource value: 0x7f09008d
 			public const int action_bar = 2131296397;
@@ -3209,8 +3209,8 @@ namespace Locsi
 			// aapt resource value: 0x7f0900ab
 			public const int browser_actions_menu_view = 2131296427;
 			
-			// aapt resource value: 0x7f0900e8
-			public const int bugyi = 2131296488;
+			// aapt resource value: 0x7f0900e9
+			public const int bugyi = 2131296489;
 			
 			// aapt resource value: 0x7f090072
 			public const int buttonPanel = 2131296370;
@@ -3281,11 +3281,11 @@ namespace Locsi
 			// aapt resource value: 0x7f090027
 			public const int disableHome = 2131296295;
 			
-			// aapt resource value: 0x7f0900e3
-			public const int editText1 = 2131296483;
+			// aapt resource value: 0x7f0900e4
+			public const int editText1 = 2131296484;
 			
-			// aapt resource value: 0x7f0900e5
-			public const int editText2 = 2131296485;
+			// aapt resource value: 0x7f0900e6
+			public const int editText2 = 2131296486;
 			
 			// aapt resource value: 0x7f09008f
 			public const int edit_query = 2131296399;
@@ -3392,8 +3392,8 @@ namespace Locsi
 			// aapt resource value: 0x7f090070
 			public const int list_item = 2131296368;
 			
-			// aapt resource value: 0x7f0900ea
-			public const int masked = 2131296490;
+			// aapt resource value: 0x7f0900eb
+			public const int masked = 2131296491;
 			
 			// aapt resource value: 0x7f09009c
 			public const int message = 2131296412;
@@ -3455,20 +3455,20 @@ namespace Locsi
 			// aapt resource value: 0x7f0900b5
 			public const int navigation_header_container = 2131296437;
 			
-			// aapt resource value: 0x7f0900eb
-			public const int navigation_home = 2131296491;
-			
-			// aapt resource value: 0x7f0900ed
-			public const int navigation_manual = 2131296493;
-			
 			// aapt resource value: 0x7f0900ec
-			public const int navigation_programs = 2131296492;
-			
-			// aapt resource value: 0x7f0900ef
-			public const int navigation_settings = 2131296495;
+			public const int navigation_home = 2131296492;
 			
 			// aapt resource value: 0x7f0900ee
-			public const int navigation_timers = 2131296494;
+			public const int navigation_manual = 2131296494;
+			
+			// aapt resource value: 0x7f0900ed
+			public const int navigation_programs = 2131296493;
+			
+			// aapt resource value: 0x7f0900f0
+			public const int navigation_settings = 2131296496;
+			
+			// aapt resource value: 0x7f0900ef
+			public const int navigation_timers = 2131296495;
 			
 			// aapt resource value: 0x7f090042
 			public const int never = 2131296322;
@@ -3638,17 +3638,20 @@ namespace Locsi
 			// aapt resource value: 0x7f090073
 			public const int spacer = 2131296371;
 			
-			// aapt resource value: 0x7f0900e0
-			public const int spinner1 = 2131296480;
+			// aapt resource value: 0x7f0900e1
+			public const int spinner1 = 2131296481;
 			
-			// aapt resource value: 0x7f0900e7
-			public const int spinner2 = 2131296487;
+			// aapt resource value: 0x7f0900e8
+			public const int spinner2 = 2131296488;
 			
 			// aapt resource value: 0x7f0900bc
 			public const int spinnerMan = 2131296444;
 			
 			// aapt resource value: 0x7f0900d3
 			public const int spinnerPgm1 = 2131296467;
+			
+			// aapt resource value: 0x7f0900df
+			public const int spinnerSensor1 = 2131296479;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
@@ -3683,8 +3686,8 @@ namespace Locsi
 			// aapt resource value: 0x7f090098
 			public const int submit_area = 2131296408;
 			
-			// aapt resource value: 0x7f0900e1
-			public const int switch1 = 2131296481;
+			// aapt resource value: 0x7f0900e2
+			public const int switch1 = 2131296482;
 			
 			// aapt resource value: 0x7f090026
 			public const int tabMode = 2131296294;
@@ -3716,14 +3719,14 @@ namespace Locsi
 			// aapt resource value: 0x7f0900dd
 			public const int textView1 = 2131296477;
 			
-			// aapt resource value: 0x7f0900e2
-			public const int textView2 = 2131296482;
+			// aapt resource value: 0x7f0900e3
+			public const int textView2 = 2131296483;
 			
-			// aapt resource value: 0x7f0900e4
-			public const int textView3 = 2131296484;
+			// aapt resource value: 0x7f0900e5
+			public const int textView3 = 2131296485;
 			
-			// aapt resource value: 0x7f0900e6
-			public const int textView4 = 2131296486;
+			// aapt resource value: 0x7f0900e7
+			public const int textView4 = 2131296487;
 			
 			// aapt resource value: 0x7f0900d4
 			public const int textViewPgm1 = 2131296468;
@@ -3791,8 +3794,8 @@ namespace Locsi
 			// aapt resource value: 0x7f09001b
 			public const int view_offset_helper = 2131296283;
 			
-			// aapt resource value: 0x7f0900e9
-			public const int visible = 2131296489;
+			// aapt resource value: 0x7f0900ea
+			public const int visible = 2131296490;
 			
 			// aapt resource value: 0x7f090043
 			public const int withText = 2131296323;

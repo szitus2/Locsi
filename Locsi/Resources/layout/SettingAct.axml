@@ -31,8 +31,27 @@
             android:textColor="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/IPAddrEditText" />
-    
+            android:id="@+id/IPAddrEditText"                
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Érzékelők:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+        />
+        <Spinner
+            android:id="@+id/spinnerSensor1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="#587ca0"
+            android:layout_height="wrap_content"
+            android:popupBackground="#587ca0"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20.0dp"
+            android:layout_marginBottom="20.0dp"
+            android:layout_marginLeft="10.0dp"
+            android:layout_marginRight="10.0dp" 
+        />
    
     </LinearLayout>
     
