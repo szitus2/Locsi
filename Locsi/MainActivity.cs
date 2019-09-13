@@ -7,10 +7,12 @@ using Android.Views;
 using Android.Widget;
 using Android.Content;
 using Android.Content.PM;
+using Android.Graphics;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System;
 
 namespace Locsi
 {
@@ -18,11 +20,15 @@ namespace Locsi
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         TextView textMessage;
+        TextView messageSensor;
         TextView programText;
         TextView stepText;
         TextView stationText;
         TextView timeText;
+        Button mainButton;
+
         private CancellationTokenSource cts;
+        private bool turnedOn;
 
         public Common cm = Common.Instance;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -36,13 +42,25 @@ namespace Locsi
             stationText = FindViewById<TextView>(Resource.Id.messageSta);
             stepText = FindViewById<TextView>(Resource.Id.messageSte);
             timeText = FindViewById<TextView>(Resource.Id.messageTim);
+            mainButton = FindViewById<Button>(Resource.Id.mainButton);
+            messageSensor = FindViewById<TextView>(Resource.Id.messageSensor);
 
             BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
             navigation.SelectedItemId = Resource.Id.navigation_home;
 
+
+            mainButton.Click += MainButton_Click;
             //StartRefresh();
 
+        }
+
+        private void MainButton_Click(object sender, System.EventArgs e)
+        {
+            mainButton.SetBackgroundColor(Color.DarkKhaki);
+            turnedOn = !turnedOn;
+
+            _ = SetTurnedOn();
         }
 
         protected override void OnStart()
@@ -171,7 +189,34 @@ namespace Locsi
                             stepText.SetText((pgc.currentStep + 1).ToString() + "/" + pgc.totalStep.ToString(), TextView.BufferType.Normal);
                             timeText.SetText(pgc.remainingMin.ToString() + ":" + pgc.remainingSec.ToString(), TextView.BufferType.Normal);
                         }
+                        if (pgc.turnedOn)
+                        {
+                            mainButton.SetBackgroundColor(Color.DarkGreen);
+                            mainButton.SetTextColor(Color.White);
+                            mainButton.Text = "Bekapcsolva";
+                            turnedOn = true;
+                        }
+                        else
+                        {
+                            mainButton.SetBackgroundColor(Color.DarkGray);
+                            mainButton.SetTextColor(Color.White);
+                            mainButton.Text = "Kikapcsolva";
+                            turnedOn = false;
+                        }
 
+                        if (pgc.sensorLock1 || pgc.sensorLock2)
+                        {
+                            messageSensor.SetTextColor(Color.Orange);
+                            messageSensor.SetTypeface(Typeface.Create("Roboto", TypefaceStyle.Bold), TypefaceStyle.Bold);
+                            messageSensor.Text = "" + (pgc.sensorLock1 ? "1-es " : "") + (pgc.sensorLock2 ? "2-es" : "");
+                        }
+                        else
+                        {
+                            messageSensor.SetTextColor(Color.White);
+                            messageSensor.SetTypeface(Typeface.Create("Roboto", TypefaceStyle.Normal), TypefaceStyle.Normal);
+                            messageSensor.Text = "Nincs jelzés";
+                        }
+                        
                     }
                 }
                 catch { };
@@ -182,6 +227,17 @@ namespace Locsi
             }
             
         }
+
+        public async Task SetTurnedOn()
+        {
+            string jsonString = "{\"turnedon\": " + turnedOn.ToString().ToLower() + "}";
+            HttpClient client = new HttpClient();
+            System.Uri uri = new Uri("http://" + Common.Instance.LocsiHostname + "/setturnon");
+            HttpContent content = new StringContent(jsonString);
+            HttpResponseMessage resp = await client.PostAsync(uri, content);
+        }
+
     }
+
 }
 

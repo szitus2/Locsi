@@ -27,32 +27,115 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
-        <EditText
-            android:textColor="@android:color/white"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/IPAddrEditText"                
-        />
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:inputType="textUri"
+                android:textColor="@android:color/white"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/IPAddrEditText"                
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frissít"
+                android:id="@+id/IPAddrRefrButton"
+            />
+        </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Érzékelők:"
+            android:text="Érzékelők"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@android:color/white"
+            android:layout_marginTop="30dp"
         />
-        <Spinner
-            android:id="@+id/spinnerSensor1"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:background="#587ca0"
-            android:layout_height="wrap_content"
-            android:popupBackground="#587ca0"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginTop="20.0dp"
-            android:layout_marginBottom="20.0dp"
-            android:layout_marginLeft="10.0dp"
-            android:layout_marginRight="10.0dp" 
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1-es érzékelő:"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+            />
+            <Spinner
+                android:id="@+id/spinnerSensor1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#ffffffff"
+                android:popupBackground="#ffffffff" 
+            />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2-es érzékelő:"            
+                android:textColor="@android:color/white"
+                android:layout_marginRight="5dp"
+            />
+            <Spinner
+                android:id="@+id/spinnerSensor2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="#ffffffff"
+                android:popupBackground="#ffffffff" 
+            />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Időzóna"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="30dp"
         />
-   
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UTC (+/-):"            
+                android:textColor="@android:color/white"
+                android:layout_marginRight="5dp"
+            />
+            <EditText
+                android:inputType="numberSigned"
+                android:layout_width="106.5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:id="@+id/utcOffsetText" />  
+            <CheckBox
+                android:text="Nyári idő"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dlsCheckbox"
+                android:checked="false" />
+        </LinearLayout>
     </LinearLayout>
     
     <android.support.design.widget.BottomNavigationView

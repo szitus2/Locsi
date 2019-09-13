@@ -128,7 +128,7 @@ namespace Locsi
         {
             base.OnPause();
             if (programs == null || programs.GetUpperBound(0) < 1) { return; }
-            SavePrograms();
+            _ = SavePrograms();
         }
 
         private void Sp_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)

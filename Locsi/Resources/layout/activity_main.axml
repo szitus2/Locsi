@@ -17,7 +17,7 @@
         android:layout_marginRight = "10dp"
         android:id="@+id/gridLayout1"
         android:columnCount="3"
-        android:rowCount="8">
+        android:rowCount="9">
 
         <TextView
             android:text="Frissítés..."
@@ -64,6 +64,28 @@
             android:id="@+id/messageProg"
             android:layout_marginLeft="10.5dp" />
 
+        <TextView
+            android:text="Jelzés:"
+            android:layout_column="0"
+            android:layout_columnSpan = "1"
+            android:layout_rowWeight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="fill"
+            android:gravity="right|center"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:text="---"
+            android:layout_column="1"
+            android:layout_columnSpan = "2"
+            android:layout_rowWeight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="fill"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:id="@+id/messageSensor"
+            android:layout_marginLeft="10.5dp" />
 
         <TextView
             android:text="Fázis:"
@@ -134,22 +156,36 @@
             android:id="@+id/messageTim"
             android:layout_marginLeft="10.5dp" />
 
-        <TextView
-            android:text=""
-            android:layout_column="0"
-            android:layout_columnSpan = "3"
-            android:layout_rowWeight="15"
+        <Button
+            android:text= ""
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_gravity="fill"
-            android:gravity="center"
-            android:textColor="@android:color/white"
-            android:id="@+id/message100"/>
+            android:layout_marginTop="30.0dp"
+            android:id="@+id/mainButton"
+            android:layout_rowWeight="9"
+            android:layout_columnSpan="3"
+            android:layout_width="fill_parent"
+            android:layout_marginRight="30.0dp"
+            android:layout_marginLeft="30.0dp" 
+            
+        />
 
         <TextView
             android:text=""
             android:layout_column="0"
             android:layout_columnSpan = "3"
-            android:layout_rowWeight="2"
+            android:layout_rowWeight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="top"
+            android:textColor="@android:color/holo_orange_light"
+            android:id="@+id/sensorTextView"/>
+
+        <TextView
+            android:text=""
+            android:layout_column="0"
+            android:layout_columnSpan = "3"
+            android:layout_rowWeight="3"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_gravity="fill"
             android:gravity="center"

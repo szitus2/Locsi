@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="Activity1.cs" />
     <Compile Include="Common.cs" />
+    <Compile Include="ConfigMsgClass.cs" />
     <Compile Include="DTClass.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ManualActivity.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="ProgramStepLineAdapter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SensorConfigEnum.cs" />
     <Compile Include="SettingsAct.cs" />
     <Compile Include="TimerClass.cs" />
     <Compile Include="Timers.cs" />

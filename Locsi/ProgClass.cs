@@ -8,5 +8,8 @@
         public byte currentStation;
         public byte remainingMin;
         public byte remainingSec;
+        public bool turnedOn;
+        public bool sensorLock1;
+        public bool sensorLock2;
     }
 }

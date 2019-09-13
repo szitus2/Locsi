@@ -3137,11 +3137,11 @@ namespace Locsi
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
-			// aapt resource value: 0x7F020021
-			public const int BNVMan = 2130837537;
+			// aapt resource value: 0x7F020023
+			public const int BNVMan = 2130837539;
 			
-			// aapt resource value: 0x7F020032
-			public const int BNWPgm = 2130837554;
+			// aapt resource value: 0x7F020034
+			public const int BNWPgm = 2130837556;
 			
 			// aapt resource value: 0x7F0C0008
 			public const int bottom = 2131492872;
@@ -3161,8 +3161,8 @@ namespace Locsi
 			// aapt resource value: 0x7F0C000D
 			public const int browser_actions_menu_view = 2131492877;
 			
-			// aapt resource value: 0x7F020049
-			public const int bugyi = 2130837577;
+			// aapt resource value: 0x7F020055
+			public const int bugyi = 2130837589;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int buttonPanel = 2131492890;
@@ -3215,11 +3215,14 @@ namespace Locsi
 			// aapt resource value: 0x7F0C002A
 			public const int design_navigation_view = 2131492906;
 			
-			// aapt resource value: 0x7F020044
-			public const int editText1 = 2130837572;
+			// aapt resource value: 0x7F020045
+			public const int dlsCheckbox = 2130837573;
 			
-			// aapt resource value: 0x7F020046
-			public const int editText2 = 2130837574;
+			// aapt resource value: 0x7F020050
+			public const int editText1 = 2130837584;
+			
+			// aapt resource value: 0x7F020052
+			public const int editText2 = 2130837586;
 			
 			// aapt resource value: 0x7F0C002B
 			public const int edit_query = 2131492907;
@@ -3269,8 +3272,11 @@ namespace Locsi
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
 			
-			// aapt resource value: 0x7F020038
-			public const int IPAddrEditText = 2130837560;
+			// aapt resource value: 0x7F020040
+			public const int IPAddrEditText = 2130837568;
+			
+			// aapt resource value: 0x7F020041
+			public const int IPAddrRefrButton = 2130837569;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -3293,20 +3299,23 @@ namespace Locsi
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
-			// aapt resource value: 0x7F020036
-			public const int linearLayout1 = 2130837558;
+			// aapt resource value: 0x7F020038
+			public const int linearLayout1 = 2130837560;
 			
-			// aapt resource value: 0x7F020017
-			public const int linearLayoutPgms = 2130837527;
+			// aapt resource value: 0x7F020019
+			public const int linearLayoutPgms = 2130837529;
 			
 			// aapt resource value: 0x7F0C0041
 			public const int listMode = 2131492929;
 			
-			// aapt resource value: 0x7F020026
-			public const int listText1 = 2130837542;
+			// aapt resource value: 0x7F020028
+			public const int listText1 = 2130837544;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int list_item = 2131492930;
+			
+			// aapt resource value: 0x7F020015
+			public const int mainButton = 2130837525;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int masked = 2131492931;
@@ -3317,41 +3326,41 @@ namespace Locsi
 			// aapt resource value: 0x7F020005
 			public const int message1 = 2130837509;
 			
-			// aapt resource value: 0x7F020014
-			public const int message100 = 2130837524;
-			
 			// aapt resource value: 0x7F020006
 			public const int message2 = 2130837510;
 			
-			// aapt resource value: 0x7F020015
-			public const int message200 = 2130837525;
+			// aapt resource value: 0x7F020017
+			public const int message200 = 2130837527;
 			
-			// aapt resource value: 0x7F020008
-			public const int message3 = 2130837512;
+			// aapt resource value: 0x7F020009
+			public const int message3 = 2130837513;
 			
-			// aapt resource value: 0x7F020010
-			public const int message4 = 2130837520;
+			// aapt resource value: 0x7F020011
+			public const int message4 = 2130837521;
 			
-			// aapt resource value: 0x7F020012
-			public const int message5 = 2130837522;
+			// aapt resource value: 0x7F020013
+			public const int message5 = 2130837523;
 			
 			// aapt resource value: 0x7F020007
 			public const int messageProg = 2130837511;
 			
-			// aapt resource value: 0x7F020011
-			public const int messageSta = 2130837521;
+			// aapt resource value: 0x7F020008
+			public const int messageSensor = 2130837512;
 			
-			// aapt resource value: 0x7F020009
-			public const int messageSte = 2130837513;
+			// aapt resource value: 0x7F020012
+			public const int messageSta = 2130837522;
 			
-			// aapt resource value: 0x7F020013
-			public const int messageTim = 2130837523;
+			// aapt resource value: 0x7F020010
+			public const int messageSte = 2130837520;
+			
+			// aapt resource value: 0x7F020014
+			public const int messageTim = 2130837524;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
-			// aapt resource value: 0x7F020031
-			public const int minusButtonPgm1 = 2130837553;
+			// aapt resource value: 0x7F020033
+			public const int minusButtonPgm1 = 2130837555;
 			
 			// aapt resource value: 0x7F0C0046
 			public const int mtrl_child_content_container = 2131492934;
@@ -3362,26 +3371,26 @@ namespace Locsi
 			// aapt resource value: 0x7F0C0048
 			public const int multiply = 2131492936;
 			
-			// aapt resource value: 0x7F020016
-			public const int navigation = 2130837526;
+			// aapt resource value: 0x7F020018
+			public const int navigation = 2130837528;
 			
 			// aapt resource value: 0x7F0C0049
 			public const int navigation_header_container = 2131492937;
 			
-			// aapt resource value: 0x7F020050
-			public const int navigation_home = 2130837584;
+			// aapt resource value: 0x7F020056
+			public const int navigation_home = 2130837590;
 			
-			// aapt resource value: 0x7F020052
-			public const int navigation_manual = 2130837586;
+			// aapt resource value: 0x7F020058
+			public const int navigation_manual = 2130837592;
 			
-			// aapt resource value: 0x7F020051
-			public const int navigation_programs = 2130837585;
+			// aapt resource value: 0x7F020057
+			public const int navigation_programs = 2130837591;
 			
-			// aapt resource value: 0x7F020054
-			public const int navigation_settings = 2130837588;
+			// aapt resource value: 0x7F020060
+			public const int navigation_settings = 2130837600;
 			
-			// aapt resource value: 0x7F020053
-			public const int navigation_timers = 2130837587;
+			// aapt resource value: 0x7F020059
+			public const int navigation_timers = 2130837593;
 			
 			// aapt resource value: 0x7F0C0013
 			public const int none = 2131492883;
@@ -3410,23 +3419,23 @@ namespace Locsi
 			// aapt resource value: 0x7F0C0052
 			public const int parent_matrix = 2131492946;
 			
-			// aapt resource value: 0x7F020025
-			public const int pgmpuCancelButton = 2130837541;
+			// aapt resource value: 0x7F020027
+			public const int pgmpuCancelButton = 2130837543;
 			
-			// aapt resource value: 0x7F020023
-			public const int pgmpuDuration = 2130837539;
+			// aapt resource value: 0x7F020025
+			public const int pgmpuDuration = 2130837541;
+			
+			// aapt resource value: 0x7F020026
+			public const int pgmpuSaveButton = 2130837542;
 			
 			// aapt resource value: 0x7F020024
-			public const int pgmpuSaveButton = 2130837540;
-			
-			// aapt resource value: 0x7F020022
-			public const int pgmpuStation = 2130837538;
+			public const int pgmpuStation = 2130837540;
 			
 			// aapt resource value: 0x7F0C0053
 			public const int pin = 2131492947;
 			
-			// aapt resource value: 0x7F020030
-			public const int plusButtonPgm1 = 2130837552;
+			// aapt resource value: 0x7F020032
+			public const int plusButtonPgm1 = 2130837554;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int progress_circular = 2131492948;
@@ -3434,14 +3443,14 @@ namespace Locsi
 			// aapt resource value: 0x7F0C0055
 			public const int progress_horizontal = 2131492949;
 			
+			// aapt resource value: 0x7F020037
+			public const int pslDuration = 2130837559;
+			
+			// aapt resource value: 0x7F020036
+			public const int pslStation = 2130837558;
+			
 			// aapt resource value: 0x7F020035
-			public const int pslDuration = 2130837557;
-			
-			// aapt resource value: 0x7F020034
-			public const int pslStation = 2130837556;
-			
-			// aapt resource value: 0x7F020033
-			public const int pslStepNum = 2130837555;
+			public const int pslStepNum = 2130837557;
 			
 			// aapt resource value: 0x7F0C0056
 			public const int radio = 2131492950;
@@ -3515,8 +3524,11 @@ namespace Locsi
 			// aapt resource value: 0x7F0C006C
 			public const int select_dialog_listview = 2131492972;
 			
-			// aapt resource value: 0x7F020040
-			public const int SettingsBNV = 2130837568;
+			// aapt resource value: 0x7F020016
+			public const int sensorTextView = 2130837526;
+			
+			// aapt resource value: 0x7F020046
+			public const int SettingsBNV = 2130837574;
 			
 			// aapt resource value: 0x7F0C006E
 			public const int shortcut = 2131492974;
@@ -3533,20 +3545,23 @@ namespace Locsi
 			// aapt resource value: 0x7F0C0072
 			public const int spacer = 2131492978;
 			
-			// aapt resource value: 0x7F020041
-			public const int spinner1 = 2130837569;
+			// aapt resource value: 0x7F020047
+			public const int spinner1 = 2130837575;
 			
-			// aapt resource value: 0x7F020048
-			public const int spinner2 = 2130837576;
+			// aapt resource value: 0x7F020054
+			public const int spinner2 = 2130837588;
 			
-			// aapt resource value: 0x7F020018
-			public const int spinnerMan = 2130837528;
+			// aapt resource value: 0x7F020020
+			public const int spinnerMan = 2130837536;
 			
-			// aapt resource value: 0x7F020027
-			public const int spinnerPgm1 = 2130837543;
+			// aapt resource value: 0x7F020029
+			public const int spinnerPgm1 = 2130837545;
 			
-			// aapt resource value: 0x7F020039
-			public const int spinnerSensor1 = 2130837561;
+			// aapt resource value: 0x7F020042
+			public const int spinnerSensor1 = 2130837570;
+			
+			// aapt resource value: 0x7F020043
+			public const int spinnerSensor2 = 2130837571;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int split_action_bar = 2131492979;
@@ -3563,14 +3578,14 @@ namespace Locsi
 			// aapt resource value: 0x7F0C001B
 			public const int start = 2131492891;
 			
-			// aapt resource value: 0x7F020019
-			public const int startButtonMan = 2130837529;
+			// aapt resource value: 0x7F020021
+			public const int startButtonMan = 2130837537;
 			
-			// aapt resource value: 0x7F020029
-			public const int stepListViewPgm1 = 2130837545;
+			// aapt resource value: 0x7F020031
+			public const int stepListViewPgm1 = 2130837553;
 			
-			// aapt resource value: 0x7F020020
-			public const int stopButtonMan = 2130837536;
+			// aapt resource value: 0x7F020022
+			public const int stopButtonMan = 2130837538;
 			
 			// aapt resource value: 0x7F0C0078
 			public const int stretch = 2131492984;
@@ -3581,8 +3596,8 @@ namespace Locsi
 			// aapt resource value: 0x7F0C007A
 			public const int submit_area = 2131492986;
 			
-			// aapt resource value: 0x7F020042
-			public const int switch1 = 2130837570;
+			// aapt resource value: 0x7F020048
+			public const int switch1 = 2130837576;
 			
 			// aapt resource value: 0x7F0C007B
 			public const int tabMode = 2131492987;
@@ -3617,20 +3632,20 @@ namespace Locsi
 			// aapt resource value: 0x7F0C0082
 			public const int textSpacerNoTitle = 2131492994;
 			
-			// aapt resource value: 0x7F020037
-			public const int textView1 = 2130837559;
+			// aapt resource value: 0x7F020039
+			public const int textView1 = 2130837561;
 			
-			// aapt resource value: 0x7F020043
-			public const int textView2 = 2130837571;
+			// aapt resource value: 0x7F020049
+			public const int textView2 = 2130837577;
 			
-			// aapt resource value: 0x7F020045
-			public const int textView3 = 2130837573;
+			// aapt resource value: 0x7F020051
+			public const int textView3 = 2130837585;
 			
-			// aapt resource value: 0x7F020047
-			public const int textView4 = 2130837575;
+			// aapt resource value: 0x7F020053
+			public const int textView4 = 2130837587;
 			
-			// aapt resource value: 0x7F020028
-			public const int textViewPgm1 = 2130837544;
+			// aapt resource value: 0x7F020030
+			public const int textViewPgm1 = 2130837552;
 			
 			// aapt resource value: 0x7F0C0083
 			public const int text_input_password_toggle = 2131492995;
@@ -3679,6 +3694,9 @@ namespace Locsi
 			
 			// aapt resource value: 0x7F0C0095
 			public const int up = 2131493013;
+			
+			// aapt resource value: 0x7F020044
+			public const int utcOffsetText = 2130837572;
 			
 			// aapt resource value: 0x7F0C0096
 			public const int view_offset_helper = 2131493014;

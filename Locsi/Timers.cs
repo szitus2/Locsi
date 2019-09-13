@@ -73,7 +73,7 @@ namespace Locsi
             tims[selectedTimer].hour = Convert.ToByte(eth.Text);
             tims[selectedTimer].minute = Convert.ToByte(etm.Text);
             tims[selectedTimer].program = Convert.ToByte(spp.SelectedItemPosition);
-            SaveTimers();
+            _ = SaveTimers();
         }
 
         
