@@ -24,6 +24,11 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidSigningKeyStore>D:\Users\akos.szitanyi\AppData\Local\Xamarin\Mono for Android\Keystore\Lakinet.local - 2\Lakinet.local.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>KelTi087</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>Lakinet.local</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>KelTi087</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
