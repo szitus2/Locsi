@@ -11,9 +11,12 @@ background;obj\Release\90\res\mipmap-anydpi-v26\ic_irrigation.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\ic_irrigation_round.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Release\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Release\90\res\layout\activity_main.xml
 Button;obj\Release\90\res\layout\manuallayout.xml
 Button;obj\Release\90\res\layout\programpopuplayout.xml
 Button;obj\Release\90\res\layout\programslayout.xml
+Button;obj\Release\90\res\layout\settingact.xml
+CheckBox;obj\Release\90\res\layout\settingact.xml
 color;obj\Release\90\res\values\colors.xml
 color;obj\Release\90\res\values\ic_launcher_background.xml
 dimen;obj\Release\90\res\values\dimens.xml
